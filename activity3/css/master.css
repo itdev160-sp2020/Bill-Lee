@@ -1,0 +1,98 @@
+body {
+    background-color: bisque;
+}
+nav {
+    background-color: white;
+    color: tomato;
+}
+nav a {
+    font-size: large;
+    font-weight: 700;
+}
+nav:hover {
+    color: blue;
+}
+header {
+    text-align: center;
+    background-color: rgba(20, 40, 60, 0.3);
+    color: rgb(13, 87, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 2em 2em;
+    padding: 2em 2em;
+}
+.article1 {
+    background-color: rgb(199, 162, 61);
+    color: #492600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 2em;
+    font-weight: 500px;
+    margin: 2em 2em;
+    padding: 1em 1em;
+}
+.article1 p {
+    color: rgb(26, 13, 212);
+    font-size: medium;
+}
+.article1 p::first-letter {
+    color: rgb(26, 13, 212);
+    font-size: x-large;
+
+}
+.article1 img {
+    border-style: double;
+    width: 500px;
+}
+figcaption {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: blue;
+}
+.article2 {
+    background-color: hsla(236, 50%, 100%, 0.6);
+    color: hsl(220, 100%, 50%);
+    text-align: center;
+    font-weight: 700;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em 2em;
+    padding: 1em;
+}
+.article2 img {
+    width: 500px;
+    border-style: double;
+    border-color: darkblue;
+}
+.article3 {
+    background-color: gray;
+    margin: 2em 2em;
+    padding: 1em 1em;
+    color: darkred;
+}
+.review {
+    color: rgb(233, 220, 220);
+    line-height: 1.5em;
+}
+.article4 {
+    background-color: darkslategray;
+    color: hsl(150, 25%, 50%);
+    text-align: center;
+    margin: 2em 2em;
+    padding: 1em 1em;
+}
+#link {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#link:hover {
+    color: #c7dfe6;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: rgb(216, 12, 12);
+}
