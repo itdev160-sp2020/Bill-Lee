@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto 30px;
+  }
+  #credits {
+    font-style: italic;
+    font-size: .75em;
+    margin-bottom: 20px;
+  }
+  #header-image {
+    width: 100%;
+  }
+  .checked {
+    color: orange;
+  }
+  .fa-star-half-full {
+    color: orange;
+  }
+  #p1-name {
+    border-top: 1px solid black;
+    padding-top: 20px;
+  }
+  #p2-name {
+    border-top: 1px solid black;
+    padding-top: 20px;
+  }
+  #p3-name {
+    border-top: 1px solid black;
+    padding-top: 20px;
+  }
