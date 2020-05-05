@@ -27,22 +27,7 @@ function get(element) {
     backdrop.classList.remove('visible');
   }
   
-  function saveContent() {
-    var title = get('edit-title-text');
-    var text = get('edit-content-text');
-    var content = get('display-content');
   
-    // Create content elements
-    var newTitle = document.createElement('h2');
-    var newTitleText = document.createTextNode(title.value);
-    var newContent = document.createElement('p');
-    var newContentText = document.createTextNode(text.value);
-  
-    // Add elements
-    newTitle.appendChild(newTitleText);
-    newContent.appendChild(newContentText);
-    content.appendChild(newTitle);
-    content.appendChild(newContent);
   
     closeModal();
   }
